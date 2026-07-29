@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KUKO AI Fitness — Privacy Policy</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f4faf9;
+    --surface: #ffffff;
+    --text: #16221f;
+    --muted: #56655f;
+    --border: #dbe6e2;
+    --accent: #00a6c0;
+    --accent-deep: #0b7a8f;
+    --warn-bg: #fff4e0;
+    --warn-border: #f0c771;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #07141a;
+      --surface: #0e1f27;
+      --text: #eaf3f2;
+      --muted: #9db3ad;
+      --border: #1e343c;
+      --accent: #37d6c4;
+      --accent-deep: #58e0d0;
+      --warn-bg: #2a2210;
+      --warn-border: #6b5420;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+  }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 28px;
+  }
+  .logo {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    flex-shrink: 0;
+    background: linear-gradient(135deg, #00d9c0, #00a6c0 55%, #0b7a8f);
+  }
+  header h1 {
+    font-size: 1.15rem;
+    margin: 0;
+    line-height: 1.3;
+  }
+  header p {
+    margin: 2px 0 0;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+  h2 {
+    font-size: 1.15rem;
+    margin: 2.2em 0 0.6em;
+    padding-top: 0.4em;
+    border-top: 1px solid var(--border);
+  }
+  h2:first-of-type { border-top: none; margin-top: 0.5em; }
+  p, li { color: var(--text); }
+  .meta {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 14px 18px;
+    font-size: 0.92rem;
+    color: var(--muted);
+    margin-bottom: 1.6em;
+  }
+  .meta strong { color: var(--text); }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+    font-size: 0.92rem;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--border);
+    white-space: normal;
+  }
+  th { color: var(--muted); font-weight: 600; }
+  a { color: var(--accent-deep); }
+  code {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 1px 5px;
+    font-size: 0.9em;
+  }
+  .summary {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 18px 20px;
+  }
+  .summary ul { margin: 0.4em 0; padding-left: 1.3em; }
+  footer {
+    margin-top: 3em;
+    padding-top: 1.4em;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.88rem;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="logo" aria-hidden="true"></div>
+    <div>
+      <h1>KUKO AI Fitness</h1>
+      <p>Privacy Policy · GifGif Studio</p>
+    </div>
+  </header>
+
+  <div class="meta">
+    <strong>Data controller:</strong> GifGif Studio<br>
+    <strong>Contact for privacy requests:</strong> support@gifgifstudio.com<br>
+    <strong>Applies to:</strong> KUKO AI Fitness (Android &amp; iOS), package <code>com.gifgifstudio.kuko_ai_fitness</code><br>
+    <strong>Effective date:</strong> 2026-07-29 &nbsp;·&nbsp; <strong>Last updated:</strong> 2026-07-29
+  </div>
+
+  <p>This policy describes exactly what KUKO AI Fitness does with your data. Every statement here corresponds to behaviour enforced in the app's code, not to an intention.</p>
+
+  <h2>1. Summary</h2>
+  <div class="summary">
+    <ul>
+      <li>Your profile, food diary, workouts, favourites and reminder times are stored <strong>on your device</strong>.</li>
+      <li>Meal photos are analysed <strong>on your device</strong> when an on-device model is available. If it cannot identify the dish, the photo may be sent to our analysis service — see §4.</li>
+      <li>Health data is read <strong>only after you grant permission and switch sync on</strong>, and only daily totals are kept.</li>
+      <li>Signing in is <strong>optional</strong> and does <strong>not</strong> upload anything — cloud backup is not implemented in this version. Every feature works without an account.</li>
+      <li>Ads are shown. <strong>Personalised ads are off unless you turn them on.</strong></li>
+      <li>You can erase everything from <strong>Settings → Privacy and data → Delete all my data</strong>.</li>
+    </ul>
+  </div>
+  <p>We do not sell your personal data. We do not share health data with advertisers.</p>
+
+  <h2>2. Data stored on your device</h2>
+  <p>Written to local storage on your phone. Not transmitted anywhere unless you enable cloud sync (§6).</p>
+  <table>
+    <tr><th>Data</th><th>Purpose</th><th>Legal basis (GDPR)</th></tr>
+    <tr><td>Age, sex, height, weight, target weight, activity level, goal</td><td>Calculating your calorie and macro targets</td><td>Consent — Art. 6(1)(a), Art. 9(2)(a)</td></tr>
+    <tr><td>Food diary entries (name, portion, calories, macros, time)</td><td>Showing your daily and weekly nutrition</td><td>Consent</td></tr>
+    <tr><td>Workout sessions (plan, duration, estimated calories)</td><td>Showing your training history</td><td>Consent</td></tr>
+    <tr><td>Favourite recipes</td><td>Letting you find them again</td><td>Legitimate interest — Art. 6(1)(f)</td></tr>
+    <tr><td>Reminder times and on/off state</td><td>Scheduling meal and activity reminders</td><td>Consent</td></tr>
+    <tr><td>Language, theme, consent choices</td><td>Restoring your preferences</td><td>Legitimate interest</td></tr>
+  </table>
+  <p><strong>Retention:</strong> kept until you delete it in-app or uninstall the app. There is no server-side copy unless you enable sync.</p>
+  <p>Health and fitness information is a <strong>special category of personal data</strong> under GDPR Article 9. We process it only with your explicit consent, only on your device, and only to show it back to you.</p>
+
+  <h2>3. Camera and photo library</h2>
+  <p>Requested only at the moment you use the scan feature. Declining leaves every other part of the app fully usable.</p>
+  <ul>
+    <li>The photo is used solely to estimate what the dish is and its nutrition.</li>
+    <li>The app does <strong>not</strong> keep the photo after analysis.</li>
+    <li>The app does <strong>not</strong> browse your photo library; you pick a single image.</li>
+  </ul>
+  <p><strong>Nutrition figures are estimates, not measurements.</strong> They are not medical, clinical, or dietary advice, and must not be used to manage a medical condition. If you have a health condition, an eating disorder, are pregnant, or have specific dietary requirements, consult a qualified professional.</p>
+
+  <h2>4. How meal photos are analysed</h2>
+  <p>Two paths, in this order:</p>
+  <p><strong>On-device (preferred).</strong> When an on-device recognition model is present, the photo is analysed locally. It never leaves your phone and no network connection is used.</p>
+  <p><strong>Our analysis service (fallback).</strong> If there is no on-device model, or the on-device model cannot identify the dish, the photo may be sent over an encrypted connection to our analysis service, which uses <strong>Google's Gemini API</strong> to identify it. This fallback also has a shared daily limit; once it is reached for the day, the app asks you to add the meal manually instead of sending the photo anywhere.</p>
+  <p>In that case:</p>
+  <ul>
+    <li>Only the image and its format are sent. No name, email, account identifier, health data or diary content is attached.</li>
+    <li>Our service does not store the image. It forwards the request, returns the result, and discards it.</li>
+    <li>Google processes the image as a data processor under the <a href="https://developers.google.com/terms">Google APIs Terms of Service</a> and the <a href="https://ai.google.dev/gemini-api/terms">Gemini API Additional Terms of Service</a>. <strong>This app currently uses the free tier of the Gemini API.</strong> Under Google's terms, content submitted to the free tier may be used by Google to develop and improve its products, including training its models — unlike the paid tier, which Google states is excluded from such use. We do not attach any identifying information to what is sent, but the image content itself is subject to this. If we move to the paid tier, this section will be updated before that takes effect, and the free-tier disclosure will be removed as it will no longer apply.</li>
+    <li>Your IP address is visible to our service and to Google as an unavoidable part of making an internet request. We use it only for abuse rate-limiting and do not link it to your profile.</li>
+  </ul>
+  <p>If you would rather no photo ever leaves your device or is subject to Google's free-tier terms, do not use the scan feature — you can log every meal manually, and the app is fully functional that way.</p>
+
+  <h2>5. Health data (Health Connect / Apple Health)</h2>
+  <p><strong>Off by default.</strong> If you switch it on and grant the platform permission, the app reads:</p>
+  <ul>
+    <li>step count,</li>
+    <li>active energy burned,</li>
+    <li>workout sessions.</li>
+  </ul>
+  <p>What happens to it:</p>
+  <ul>
+    <li>Only <strong>daily totals</strong> are stored on your device. Individual samples are read, summed, and discarded.</li>
+    <li>It is used solely to display your activity on your dashboard.</li>
+    <li>It is <strong>never</strong> sold, never shared with advertisers, never used for advertising or analytics, and never transmitted to us.</li>
+    <li>If you allow it, workouts you complete in the app can be written back to your health store.</li>
+  </ul>
+  <p>Withdraw access at any time in the app, or in Health Connect / Apple Health settings. Turning it off in the app also deletes the locally cached totals.</p>
+  <p>This use complies with the Health Connect Permissions policy and Apple's HealthKit requirements: health data is used only for the user-facing fitness features described here.</p>
+
+  <h2>6. Google account (optional)</h2>
+  <p>If you sign in with Google, we receive your <strong>name, email address and profile picture</strong> from Google, and show them in the app.</p>
+  <p><strong>Cloud backup is not implemented in this version.</strong> Signing in does not upload your diary, workouts, profile or favourites anywhere — all of it stays on your device. Sign-in currently only links the account for a backup feature planned for a later release. When that ships, this policy will be updated before it is switched on, and it will be opt-in.</p>
+  <ul>
+    <li>Sign-in is never required; every feature works without it.</li>
+    <li>Authentication tokens are handled by Google's official SDK in platform secure storage. The app does not read or retain them.</li>
+    <li>Signing out ends the session. <strong>Your local data stays on your device.</strong></li>
+  </ul>
+  <p><strong>Retention:</strong> the name, email and photo are held only in the app's local session and are discarded when you sign out. We operate no server that stores them. To be certain nothing remains, sign out and uninstall, or use Settings → Privacy and data → Delete all my data.</p>
+
+  <h2>7. Advertising</h2>
+  <p>The app is free and supported by ads served through <strong>Google AdMob</strong>.</p>
+  <ul>
+    <li><strong>Non-personalised ads</strong> are served by default.</li>
+    <li><strong>Personalised ads</strong> require you to opt in at Settings → Privacy and data. When enabled, Google may use your device's advertising identifier.</li>
+    <li>On iOS 14.5+, personalised ads also require the App Tracking Transparency prompt.</li>
+    <li>Turning personalisation off does not remove ads; it makes them non-personalised.</li>
+    <li>Rewarded ads are optional and only ever grant additional features.</li>
+  </ul>
+  <p>We never send your health data, diary content or profile to advertising networks. Google's handling is described at <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a>.</p>
+
+  <h2>8. Analytics</h2>
+  <p><strong>Not currently collected.</strong> The app contains an opt-in analytics toggle that is off by default and no analytics SDK is integrated in this version. If that changes, this policy will be updated before the change ships, and the toggle will remain opt-in.</p>
+
+  <h2>9. Third parties who receive data</h2>
+  <table>
+    <tr><th>Recipient</th><th>What they receive</th><th>When</th></tr>
+    <tr><td>Google AdMob</td><td>Advertising identifier, IP address, ad interactions</td><td>Always (non-personalised) / with consent (personalised)</td></tr>
+    <tr><td>Google Sign-In</td><td>Authentication request</td><td>Only if you sign in — no app data is sent</td></tr>
+    <tr><td>Google Gemini API (via our proxy)</td><td>The meal photo, IP address</td><td>Only when on-device recognition cannot identify a photo</td></tr>
+    <tr><td>Health Connect / Apple Health</td><td>Nothing — we only read, plus optional workout write-back</td><td>Only with your permission</td></tr>
+  </table>
+  <p>No other party receives your data. We use no data brokers and no cross-app tracking.</p>
+
+  <h2>10. Data we never collect</h2>
+  <ul>
+    <li>Precise or background location</li>
+    <li>Contacts, SMS, call logs, calendar</li>
+    <li>Files or media beyond the single image you choose to scan</li>
+    <li>Browsing history</li>
+    <li>Biometric identifiers</li>
+  </ul>
+
+  <h2>11. Security</h2>
+  <ul>
+    <li>All network traffic uses HTTPS/TLS.</li>
+    <li>API keys are never embedded in the app; the analysis service holds its credentials server-side.</li>
+    <li>Local data lives in app-private storage that other apps cannot read.</li>
+    <li>Release builds are minified and strip debug logging so personal data cannot leak into device logs.</li>
+  </ul>
+  <p>No system is perfectly secure. If you discover a vulnerability, please report it to support@gifgifstudio.com.</p>
+
+  <h2>12. Children</h2>
+  <p>KUKO AI Fitness is <strong>not directed at children under 13</strong> (under 16 in the EEA where required) and we do not knowingly collect their data. Calorie targets are only calculated for ages 13 and above. If you believe a child has provided us data, contact us and we will delete it.</p>
+
+  <h2>13. Your rights</h2>
+  <p>Regardless of where you live, you can:</p>
+  <ul>
+    <li><strong>Access</strong> everything — all of it is on your device and visible in the app.</li>
+    <li><strong>Delete</strong> everything — Settings → Privacy and data → Delete all my data, or uninstall.</li>
+    <li><strong>Withdraw consent</strong> — every toggle (health, personalised ads, analytics) can be switched off at any time, effective immediately.</li>
+  </ul>
+  <p><strong>EEA/UK (GDPR)</strong> additionally: rectification, restriction, portability, objection, and the right to complain to your data protection authority.</p>
+  <p><strong>Türkiye (KVKK)</strong> — rights under Article 11, including learning whether your data is processed and requesting its deletion.</p>
+  <p><strong>California (CCPA/CPRA)</strong> — the right to know, delete, correct, and opt out of "sale"/"sharing". We do not sell personal information. Opting out of personalised ads is available in-app to everyone.</p>
+  <p>Exercise any of these at <strong>support@gifgifstudio.com</strong>. We respond within 30 days. There is no charge, and we will not discriminate against you for asking.</p>
+
+  <h2>14. International transfers</h2>
+  <p>Our analysis service and Google's advertising and API infrastructure may process data outside your country, including in the United States. Transfers rely on the European Commission's Standard Contractual Clauses and the equivalent UK addendum where applicable.</p>
+
+  <h2>15. Changes to this policy</h2>
+  <p>Material changes are announced in the app before they take effect, and the "Last updated" date above changes. Continuing to use the app after a change means you accept the updated policy.</p>
+
+  <h2>16. Contact</h2>
+  <p><strong>GifGif Studio</strong><br>support@gifgifstudio.com</p>
+  <p>For privacy requests, put "Privacy request" in the subject line so we can route it correctly.</p>
+
+  <footer>
+    KUKO AI Fitness · GifGif Studio
+  </footer>
+
+</div>
+</body>
+</html>
